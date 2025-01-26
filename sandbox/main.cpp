@@ -1,7 +1,8 @@
 #include "stdafx.h"
+#include "Winapplication.h"
 
 
 int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE, LPSTR, int nCmdShow) 
 {
-	return 0;
+	return WinApplication::Run(hInstance, nCmdShow);
 }

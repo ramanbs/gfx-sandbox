@@ -1,8 +1,6 @@
 #pragma once
 #include "stdafx.h"
 
-bool g_FullScreen = false;
-
 class WinApplication 
 {
 public: 

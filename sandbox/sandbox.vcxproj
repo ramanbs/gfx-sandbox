@@ -129,12 +129,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="GfxDevice.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="stdafx.cpp" />
     <ClCompile Include="stdafx.h" />
     <ClCompile Include="WinApplication.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="GfxDevice.h" />
+    <ClInclude Include="ProjectDefines.h" />
     <ClInclude Include="WinApplication.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
